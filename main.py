@@ -17,16 +17,10 @@ async def root():
     return f"""<html>
 <body>
 <pre style='width: 20em; font-size: {size}%; padding-left: {x}%; padding-top: {y}%; transform: rotate({deg}deg); color:{color}'>
- ,_     _
- |\\\\_,-~/
- / _  _ |    ,--.
-(  @  @ )   / ,-'
- \\  _T_/-._( (
- /         `. \\
-|         _  \\ |
- \\ \\ ,  /      |
-  || |-_\\__   /
- ((_/`(____,-'
+  __      _
+o'')}}____//
+ `_/      )
+ (_(_/-(_/
 </pre>
 <script>
 setTimeout(function(){{
