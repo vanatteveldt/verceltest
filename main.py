@@ -9,8 +9,8 @@ app = FastAPI() # This is what will be refrenced in config
 
 @app.get("/", response_class=HTMLResponse)
 async def root():
-    x = int(random.uniform(5, 40))
-    y = int(random.uniform(5, 40))
+    x = int(random.uniform(5, 30))
+    y = int(random.uniform(5, 30))
     deg = int(random.uniform(0, 360))
     size = int(random.uniform(50, 300))
     color = "#"+''.join([random.choice('0123456789ABCDEF') for j in range(6)])
